@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Come as you are. Walk & Talk with Me is a welcoming community walk at Reed Canal Park in South Daytona. Sundays at 6:30 PM." />
+    <meta name="theme-color" content="#24384b" />
+    <title>Walk &amp; Talk with Me | Come as you are.</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#welcome" aria-label="Walk and Talk with Me home">Walk &amp; Talk <span>with Me</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#our-story">Our story</a><a href="#game-plan">The game plan</a><a href="#where">Where we meet</a><a class="nav-cta" href="#join">Come along <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer">
+      <div class="footer-top"><p>Come as you are.</p><div class="logo-placeholder">Original circular logo<br /><small>Artwork placeholder</small></div><p>There’s room for you.</p></div>
+      <p class="motto">Moving together with good people. Growing together with great conversation.</p>
+      <a href="#welcome">Back to the top ↑</a>
+    </footer>
+  </body>
+</html>
